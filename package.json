@@ -1,0 +1,33 @@
+{
+  "name": "mustang-rename",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "author": {
+    "name": "马瑞富",
+    "email": "email@maruifu.cn",
+    "url": "https://maruifu.com"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "icons": "node scripts/gen-icons.mjs",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.5.0",
+    "@tauri-apps/plugin-dialog": "^2.2.0",
+    "pinia": "^3.0.2",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.5.0",
+    "@types/node": "^22.15.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "typescript": "~5.7.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.10"
+  }
+}
