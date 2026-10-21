@@ -73,6 +73,9 @@ brew install node              # macOS
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source "$HOME/.cargo/env"
 
+# Windows: winget install Rustlang.Rustup
+
+
 # 4. 安装前端依赖
 npm install
 

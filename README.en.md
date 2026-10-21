@@ -72,6 +72,7 @@ brew install node              # macOS
 # 3. Install Rust (>= 1.90)
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source "$HOME/.cargo/env"
+# Windows: winget install Rustlang.Rustup
 
 # 4. Install frontend dependencies
 npm install
